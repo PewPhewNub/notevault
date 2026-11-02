@@ -1,0 +1,28 @@
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.sidebar {
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+}
+
+button {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-radius: 5px;
+}
+
+button:hover {
+    background: var(--button-hover);
+}
+
+input, textarea {
+    background: var(--input-bg);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+img{
+    background-color: transparent;
+}

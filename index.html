@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> NoteVault </title>
+
+        <link href="styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" class="themeStylesheet">
+        <link href="styles/base.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="toolbar">
+            <div class="toolbar-left">        
+                <button class = "toolbar-button" id="hamburger-icon">
+                    <img src="images/menu.png">
+                </button>
+            </div>
+            <div class="toolbar-center">        
+                
+            </div>
+            <div class="toolbar-right">        
+                <button class = "toolbar-button" id >
+                    <img src="images/sun.png" class="theme">
+                </button>
+            </div>
+        </header>
+
+        <div class="workspace">
+            <aside class="sidebar">
+                <div class="sidebar-controls">
+                    <div class="app-heading">
+                        NoteVault
+                    </div>
+
+                    <div class="control-panel">
+                        <div class="search-bar-holder">
+                            <img class="search-icon" src="images/search.png" alt="">
+
+                            <input
+                                class="search-bar"
+                                type="search"
+                                placeholder="Search notes..."
+                                aria-label="Search notes"
+                            >
+                        </div>
+
+                        <button class="note-button" id="new-note" aria-label="Create new note">
+                            <img src="images/plus.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="note-list"></div>
+            </aside>
+
+            <main class="note-area">
+                <input
+                    class="note-title"
+                    type="text"
+                    placeholder="Title"
+                    aria-label="Title"
+                >
+
+                <textarea
+                    class="note-content"
+                    placeholder="Enter notes here..."
+                    aria-label="Enter notes"
+                ></textarea>
+            </main>
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

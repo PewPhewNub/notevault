@@ -1,0 +1,20 @@
+:root {
+    color-scheme: light;
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #f4f5f7;
+    --bg-tertiary: #e8eaf0;
+
+    --text-primary: #202124;
+    --text-secondary: #626875;
+
+    --border-color: #dce0e6;
+    --accent-color: #526de5;
+    --accent-hover: #4059c9;
+
+    --button-hover: #e8ebf2;
+    --input-bg: #ffffff;
+    --sidebar-bg: #f7f8fa;
+
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
